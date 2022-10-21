@@ -1,0 +1,19 @@
+body{background-color: rgb(179, 179, 179);
+    
+ }
+#titulo{
+    font-size: 35px;    
+  color:black;
+  }
+p{ margin-top: -2px;
+    font-size: 20px; 
+  background-color: yellow;
+  }
+  pre{
+    margin-top: -20px;
+ font-size: 20px; 
+    background-color: grey;
+    }
+header{
+background-color: greenyellow;
+}
