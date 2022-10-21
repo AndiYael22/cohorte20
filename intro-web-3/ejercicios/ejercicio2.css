@@ -1,0 +1,34 @@
+#titulo{
+    font-size: 150px;
+    margin: 10px 420px;
+font-style:italic;
+color: rgb(245, 101, 18);
+}
+.cal  { float: left; width: 200px; margin: -150px 40px; }
+.cal2  { float: right; width: 200px; margin: -150px 40px; }
+div {text-align: center;}
+
+p{
+    color:black;
+    font-size: 50px;
+    font-style:italic;
+}
+
+em{
+    color:rgb(255, 115, 0);
+
+}
+
+am{
+    color:yellow;
+
+}
+.cal3  { float: center; width: 200px; margin: -150px 10px; }
+.cal4  { float: center; width: 200px; margin: -150px 10px; }
+p{
+    border:3px solid rgb(189, 16, 10);
+}
+
+
+
+
