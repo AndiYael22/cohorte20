@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200&family=Cormorant+SC&family=Island+Moments&family=Lemonada:wght@300&family=Lilita+One&family=Monoton&family=Monsieur+La+Doulaise&family=Rubik+Mono+One&family=Rubik+Moonrocks&family=Stick+No+Bills:wght@200&display=swap');
+.p1{font-family: 'Cairo Play', cursive; }
+    .p2{font-family:  fa-solid fa-dragon;
+        font-family: 'Cormorant SC', serif; }
+    .p3{
+        font-family: 'Island Moments', cursive; }
+    .p4{
+    font-family: 'Lemonada', cursive; }
+    .p5{font-family: 'Lilita One', cursive; }
+    .p6{font-family: 'Monoton', cursive; }
+    .p7{ font-family: 'Monsieur La Doulaise', cursive; }
+    .p8{font-family: 'Rubik Mono One', sans-serif;  font-family: 'Cairo Play', cursive;     }
+    .p9{ font-family: 'Rubik Moonrocks', cursive; }
+    .p10{ font-family: 'Stick No Bills', sans-serif;}
+    body{background-color: aquamarine; }
+
+    .ico{margin-left:500px;
+    margin-top: -57px; }
