@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+</head>
+<body>
+    <h1 id="etiqueta1">Ejemplo de DOM </h1>
+    <p id="parrafo">saludos desde el DOM </p>
+
+    <p id="otro">soy otro parrafo</p>
+    <script>
+    let etiqueta= document.getElementById("etiqueta1");
+    console.log(" Valor de etiqueta 1 "+etiqueta.innerHTML);
+    let par= document.getElementById("parrafo");
+    console.log(" Valor del parrafo "+par.innerHTML);
+    
+    let parrafos=document.getElementsByTagName("p");
+    for (let i = 0; 1<parrafos.length; i++) {
+      
+     
+    console.log( `no. parrafos: ${parrafos[i].innerHTML}`);   
+    }
+    </script>
+</body>
+</html>

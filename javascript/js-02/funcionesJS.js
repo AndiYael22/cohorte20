@@ -96,8 +96,42 @@ let funcion01= function (caracteres){
         
 let miObjeto={
     nombre:"juan",
-    edad:24
-    };
+    edad:24,
+    datos: function() {
+        let mensaje="tu nombre es: "+ this. nombre;
+        mensaje+=" tienes " + this.edad+ " años";
+        console.log(mensaje);
+    }
+    }; miObjeto.datos();
+
     let mensaje="tu nombre es: "+ miObjeto.nombre;
     mensaje+=" tienes " + miObjeto["edad"]+" años";
     console.log(mensaje);
+
+    let constructor= function () {
+        let objPersona={
+            nombre:"andi",
+            nss:983989,
+            datosPersona:function () {
+                let msj=" eres "+ this.nombre + " el numero nss es "+this.nss;
+            console.log(msj);
+                
+            }, otroMetodo: function (parametro) {
+                let numero=8;
+                console.log("la suma es: "+(numero+parametro));
+                
+            }
+        };
+        return objPersona;
+    }    
+    let varObjReg=constructor()
+    varObjReg.datosPersona();
+    varObjReg.otroMetodo(9);
+
+    let impuestos=function (precio) {
+        let obj={
+
+            
+        }
+        
+    }
