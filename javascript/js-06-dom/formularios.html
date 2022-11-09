@@ -17,8 +17,9 @@
 <button onclick="mostrarvalores()">mostrar</button>
 <button onclick="suma()">sumar</button>
 <div id="valores"> </div>
-
+<div id="valores1"> </div>
 <script>
+
     function mostrarvalores() {
         let formulario =document.forms["formularios"]
         let texto= " ";
@@ -35,10 +36,26 @@
 
    var suma = parseInt(numero1) + parseInt(numero2);
 
-   document.getElementById("valores").innerHTML=suma;
+   document.getElementById("valores1").innerHTML=suma;
+}  </script>
+<br>
+<h1>Ejemplo dom document.write</h1>
+<button onclick="cambio()">mostrar</button>
+<script>
+function cambio() {
+ 
+document.write("saludo");   
 }
+    </script>
+<h1>Dom imagenes</h1>
+<button onclick="cambiar()">cambio</button>
+<br>
+<img id="imagen" src="/img/6b9a432f9237049fffa0510f4fae8837.jpg" alt="soul">
 
-    
+<script>
+    function cambiar() {
+        document.getElementById("imagen").src="/img/1.jpg";
+    }
 </script>
 </body>
 </html>
