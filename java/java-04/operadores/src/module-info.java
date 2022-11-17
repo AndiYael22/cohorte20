@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Yui
+ *
+ */
+module operadores {
+}

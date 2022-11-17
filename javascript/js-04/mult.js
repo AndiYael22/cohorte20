@@ -11,12 +11,10 @@ let matrizC=[
             [,,],
             [,,]
             ];
-
         for (let i = 0; i <matrizA.length; i++)	 {	
             for (let a = 0; a < 3; a++){	
              matrizC[i][a]=(matrizA[i][a])*(matrizB[a][i]);
             }  }  
-
             console.log(matrizC);
         
 
