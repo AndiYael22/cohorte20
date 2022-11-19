@@ -13,15 +13,17 @@ public class Ciclos {
 		return 0;
 	}
 	
-	static float nuevo() {
-		return 0;
+	static double nuevo() {
+		
+		double h=Math.pow(5,3);
+		return h;
 	}
 	String caracteres() {
-		String nombre ="";
+		String nombre ="holi";
 		return nombre;
 	}
 	
-	
+	//< >
 	
 
 	public static void main(String[] args) {
@@ -29,8 +31,8 @@ public class Ciclos {
 		Ciclos objC;
 		objC=new Ciclos();
 		objC.saludo();
-     System.out.println("fincion pow"+objC.operacion());
-		nuevo();
+     System.out.println("uso de calse estatica math.pow 3,2"+objC.operacion());
+     System.out.println("funcion statica pow 5,3"+Ciclos.nuevo());
 		Scanner scanner =new Scanner(System.in);
 
 		System.out.println("que tabla desea ver ");
