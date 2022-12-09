@@ -8,7 +8,7 @@ function uno(palabra, myArray) {
     for (var i = 0; i < myArray.length; i++) {
         if (myArray[i].length > palabra.length) {
           cadena=myArray[i];
-         console.log(cadena);
+         document.write(cadena+" ");
     }}
 
 return cadena
