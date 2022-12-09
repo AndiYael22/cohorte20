@@ -4,20 +4,24 @@ import java.util.Scanner;
 
 
 	 public class MangosNaranjas {
-		
-			{ System.out.print("A_");}
-			public MangosNaranjas () { System.out.print("B ");}
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+				
+				Scanner scanner = new Scanner(System.in);
+				
+				System.out.println("Ingrese el número de mangos: ");
+				int mangos = scanner.nextInt(); //para no. de mangos
+				
+				System.out.println("Ingrese el número de naranjas: ");
+				int naranjas = scanner.nextInt(); //para no. de naranjas
+				
+				
+				
+				//Instancia
+				MangosNaranjas mangosNaranjas = new MangosNaranjas(mangos, naranjas);
+				mangosNaranjas.constructor();
+				
 			}
-			class gripe extends enfermedades{
-			static { System.out.print("C ");}
-			public gripe() { System.out.print("D_");}
-			{ System.out.print("E"); }
-			static { System.out.print("F ");}
-			class fiebre extends gripe {
-		
-
-		System.out.print("H ");public static void main(String[] args) { System.out.print("G ");
-			new fiebre ();
 	
 	}
 	
