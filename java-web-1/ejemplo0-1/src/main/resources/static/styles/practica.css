@@ -1,0 +1,122 @@
+
+h2{color: white;
+    background-color: rgb(0, 106, 228);;
+    margin-bottom: 0;
+    margin-left: -12px;
+    margin-right: -12px;
+    
+    
+    }
+.uno{
+    background-color: gray;
+    height: 70px;
+    color: white;
+    }
+
+    .dos{
+        background-color: gray;
+        color: white;
+    }
+    .tres{
+        background-color: gray;
+        color: white;
+        }
+    
+        .cuatro{
+            background-color: gray;
+            color: white;
+        }
+        .cinco{
+            background-color: gray;
+            color: white;
+        }
+
+        .unos{
+            background-color: white;
+        margin-left: -12px;
+           border-bottom: 1px solid rgba(0, 0, 0, .1); 
+           
+        }
+        .doss{
+            background-color: white;
+            
+            border-left: 1px solid rgba(0, 0, 0, .1); 
+            margin-left: 943px;
+            margin-right: 50px;
+            width: 365px;
+            height: 600px;
+            margin-top: -29px;      
+    }
+    .o{
+       width: 220px;
+       height: 120px;
+     
+       
+       
+    }
+    .oo{
+        width: 220px;
+        height: 120px;
+     
+     }
+     .ooo{
+        width: 220px;
+        height: 120px;
+   
+     }
+     .oooo{
+        width: 220px;
+        height: 120px;
+        margin-top: 20px;
+      
+     }
+     .ooooo{
+        width: 220px;
+        height: 120px;
+        margin-top: 20px;
+ 
+     }
+     .oooooo{
+        width: 220px;
+        height: 120px;
+        margin-top: 20px;
+      
+     }
+     .a{
+        width: 220px;
+        height: 120px;
+        margin-top: 20px;
+   
+     }
+     .aa{
+        width: 220px;
+        height: 120px;
+        margin-top: 20px;
+  
+     }
+     .aaa{
+        width: 220px;
+        height: 120px;
+        margin-top: 20px;
+     
+     }
+
+     .vars{
+      width: 800px;
+      height: 50px;
+      margin-left: 105px;
+      margin-top: -570px;
+      border: 0cm solid green;
+   
+   }
+
+     footer{
+        background-color: rgb(61, 163, 129);
+      
+        height: 50px;
+        
+        margin-top: 500px;
+        margin-left: -12px;
+        margin-right: -12px;
+
+     }
