@@ -18,11 +18,17 @@ private Long id;
 private String nombreOrden;
 @ManyToOne
 private UsuarioModel usuario;
+
+
 @OneToOne(mappedBy="orden")
 private DetalleOrden detalle;
+
+
 public OrdenModel() {
 	super();
 }
+
+
 public OrdenModel(Long id, String nombreOrden, UsuarioModel usuario, DetalleOrden detalle) {
 	super();
 	this.id = id;
@@ -30,29 +36,48 @@ public OrdenModel(Long id, String nombreOrden, UsuarioModel usuario, DetalleOrde
 	this.usuario = usuario;
 	this.detalle = detalle;
 }
+
+
 public Long getId() {
 	return id;
 }
+
+
 public void setId(Long id) {
 	this.id = id;
 }
+
+
 public String getNombreOrden() {
 	return nombreOrden;
 }
+
+
 public void setNombreOrden(String nombreOrden) {
 	this.nombreOrden = nombreOrden;
 }
+
+
 public UsuarioModel getUsuario() {
 	return usuario;
 }
+
+
 public void setUsuario(UsuarioModel usuario) {
 	this.usuario = usuario;
 }
+
+
 public DetalleOrden getDetalle() {
 	return detalle;
 }
+
+
 public void setDetalle(DetalleOrden detalle) {
 	this.detalle = detalle;
 }
+
+
+
 
 }
