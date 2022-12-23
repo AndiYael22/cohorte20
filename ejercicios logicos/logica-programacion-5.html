@@ -1,0 +1,19 @@
+<script>
+    var numeroPensado = Math.round(Math.random()*100);
+	var intentos = 5;
+	var contador = 1;
+	while (contador <= intentos) {
+    var numeroLanzado = parseInt(prompt("Ingrese un número entre 0-100"));
+    if (numeroPensado == numeroLanzado){
+        alert("felicidades acertaste el numero secreto "+numeroPensado+" pero te equivocaste "+intentos+" veces"+ " el numero era"+numeroPensado);
+        break;
+    }else {
+      alert("vuelva a intentarlo este numero no era" );   
+    }
+		contador++;
+	}if (numeroPensado == numeroLanzado){
+document.write("felicidades acertaste el numero secreto "+numeroPensado+" pero te equivocaste "+intentos+" veces"+ " el numero era"+numeroPensado);
+}else {
+    document.write("te equivocaste, el numero pensado era " + numeroPensado);
+}
+</script>

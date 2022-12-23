@@ -1,0 +1,47 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Logica_Programacion_9 {
+
+	public static void main(String[] args) {
+		HashMap <String, Object> diccio = new HashMap <String, Object> ();
+		
+		diccio.put("gato", "cat");
+		diccio.put("perro", "dog");
+		diccio.put("pato", "duck");
+		diccio.put("español", "Spanish");
+		diccio.put("inglés", "English");
+		diccio.put("diccionario", "dictionary");
+		diccio.put("celular", "cellphone");
+		diccio.put("computadora", "computer");
+		diccio.put("papel", "paper");
+		diccio.put("cargador", "charger");
+		diccio.put("comida", "food");
+		diccio.put("hola", "hi");
+		diccio.put("adiós", "bye");
+		diccio.put("cuchara", "spoon");
+		diccio.put("agua", "water");
+		diccio.put("dinero", "money");
+		diccio.put("trabajo", "job");
+		diccio.put("coche", "car");
+		diccio.put("bicicleta", "bike");
+		diccio.put("avión", "airplane");
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Hola. Tengo un diccionario español-inglés que probar. Coloca una palabra en ESPAÑOL: ");		
+		String word = s.nextLine();
+		Object condition = diccio.get(word);
+		if(condition != null)	{
+			System.out.println(condition); 
+			
+			
+		}
+		else if(condition == null) {
+			System.out.println("Lo siento. La palabra no se encuentra en este diccionario.");
+		}
+		
+		
+	}
+
+}

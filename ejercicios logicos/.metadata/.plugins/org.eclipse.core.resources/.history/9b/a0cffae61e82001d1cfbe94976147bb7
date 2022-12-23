@@ -1,0 +1,34 @@
+	import java.util.Scanner;
+public class Logica_programacion_7 {
+
+	  public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    System.out.print("Escribe el día de la semana (lunes-viernes): ");
+	    String dia = scanner.nextLine();
+	    System.out.print("Escribe la hora: ");
+	    int hora = scanner.nextInt();
+	    System.out.print("Escribe los minutos: ");
+	    int minutos = scanner.nextInt();
+
+	    int minutosActuales = (hora * 60) + minutos;
+	    int minutosFinSemana = (15 * 60);
+	    int minutosFaltantes = 0;
+
+	    if (dia.equals("viernes")) {
+	      if (minutosActuales < minutosFinSemana) {
+	        minutosFaltantes = minutosFinSemana - minutosActuales;
+	      }
+	    } else if (dia.equals("lunes")) {
+	      minutosFaltantes = (minutosFinSemana + (24 * 60)) - minutosActuales;
+	    } else if (dia.equals("martes")) {
+	      minutosFaltantes = (minutosFinSemana + (48 * 60)) - minutosActuales;
+	    } else if (dia.equals("miercoles")) {
+	      minutosFaltantes = (minutosFinSemana + (72 * 60)) - minutosActuales;
+	    } else if (dia.equals("jueves")) {
+	      minutosFaltantes = (minutosFinSemana + (96 * 60)) - minutosActuales;
+	    }
+
+	    System.out.println("Faltan " + minutosFaltantes + " minutos para el fin de semana.");
+	  }
+	}
+

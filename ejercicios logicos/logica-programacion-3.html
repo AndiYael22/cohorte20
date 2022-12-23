@@ -1,0 +1,29 @@
+<script>
+    let numero =Number(prompt("ingrese el numero del que desea conocer su factorial"));
+
+
+
+function factorial(numero){
+
+if (isNaN(numero)) {
+ alert("Lo que ingreso no es un numero por favor, ingrese un número válido");
+  numero = Number(prompt("Ingrese un número"));
+  document.write("el factorial del numero es: "+operation(numero));
+}else{
+    document.write("el factorial del numero es: "+operation(numero))
+}
+}
+
+function operation(numero){
+    
+    let fact = 1;
+      for( let i = 1; i <= numero; i++ ) {
+         fact *= i;
+      }
+ 
+      return fact;
+
+}
+factorial(numero)
+
+</script>

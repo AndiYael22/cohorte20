@@ -1,0 +1,48 @@
+	import java.util.Scanner;
+public class Logica_programacion_7 {
+
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+	    int totalMinutos = 0;
+
+	    for (int i = 1; i <= 5; i++) {
+	      System.out.print("Escribe el día de la semana (lunes a viernes): ");
+	      String dia = scanner.nextLine();
+	      System.out.print("Escribe la hora (formato 24h): ");
+	      int hora = scanner.nextInt();
+	      System.out.print("Escribe los minutos: ");
+	      int minutos = scanner.nextInt();
+	      scanner.nextLine();  // Limpiamos el buffer del scanner
+
+	      // Convertimos el día de la semana a un número (1 = lunes, 2 = martes, etc.)
+	      int diaNumero = 0;
+	      switch (dia) {
+	        case "lunes":
+	          diaNumero = 1;
+	          break;
+	        case "martes":
+	          diaNumero = 2;
+	          break;
+	        case "miércoles":
+	        case "miercoles":
+	          diaNumero = 3;
+	          break;
+	        case "jueves":
+	          diaNumero = 4;
+	          break;
+	        case "viernes":
+	          diaNumero = 5;
+	          break;
+	      }
+
+	      // Calculamos los minutos que han transcurrido desde el lunes a las 00:00
+	      int minutosTranscurridos = (diaNumero - 1) * 1440 + hora * 60 + minutos;
+	      totalMinutos += minutosTranscurridos;
+	    }
+
+	    // Calculamos los minutos que faltan para el fin de semana (viernes 15:00)
+	    int minutosFaltan = (5 * 1440 + 15 * 60) - totalMinutos;
+	    System.out.println("Faltan " + minutosFaltan + " minutos para el fin de semana.");
+	  }
+	}
+

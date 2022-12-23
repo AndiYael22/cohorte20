@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Yui\Desktop\ejercicios logicos\.metadata\.plugins\org.eclipse.jdt.core
+3405289548.index
+1865797976.index
+1609749889.index
